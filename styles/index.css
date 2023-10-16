@@ -1,0 +1,86 @@
+body{
+  width: 100%;
+  margin: 20px 0px;
+
+}
+
+.active {
+  background-color: #f188ede7;
+}
+
+li a:hover {
+  background-color: #dfb8b8;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a1c1c;
+}
+
+li {
+  float: left;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#title {
+  padding-top: 10px;
+  text-align: center;
+  background-color: #dfb8b8;
+  height: 300px;
+  width: 100%;
+
+}
+
+#sectionProdutos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 15px;
+}
+
+.produto {
+  display: inline-block;
+  height: 400px;
+  width: 45%;
+  border-radius: 20px;
+  border-style: ridge;
+  border-color: #2a1c1c;
+  background-color: beige;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+.imagem {
+  border-style: inset;
+  border-radius: 20px;
+  height: 250px;
+  width: 55%;
+}
+
+footer {
+  background-color: #dfb8b8;
+  text-align: center;
+  padding-top: 10px;
+  border-top: dashed;
+  border-bottom: dashed;
+  width: 100%;
+}
