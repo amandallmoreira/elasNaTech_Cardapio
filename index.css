@@ -1,3 +1,9 @@
+body{
+  width: 100%;
+  margin: 20px 0px;
+
+}
+
 .active {
   background-color: #f188ede7;
 }
@@ -40,22 +46,34 @@ body {
 
 }
 
+#sectionProdutos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 15px;
+}
+
 .produto {
   display: inline-block;
-  height: 500px;
-  width: 700px;
+  height: 400px;
+  width: 45%;
   border-radius: 20px;
   border-style: ridge;
   border-color: #2a1c1c;
   background-color: beige;
   padding-left: 20px;
   padding-bottom: 20px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .imagem {
   border-style: inset;
   border-radius: 20px;
+  height: 250px;
+  width: 60%;
 }
 
 footer {
@@ -64,4 +82,5 @@ footer {
   padding-top: 10px;
   border-top: dashed;
   border-bottom: dashed;
+  width: 100%;
 }
